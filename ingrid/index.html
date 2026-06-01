@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ingrid - SF6 Move Gallery</title>
+<title>sf6-moves - Ingrid</title>
 <style>
   :root { --bg:#0e0f14; --panel:#15171f; --line:#2a2d3a; --text:#e6e8ee;
            --accent:#ff77c8; --muted:#8d92a3; }
@@ -53,9 +53,9 @@
 <body>
 <header>
   <a href="../" class="back">&larr; All characters</a>
-  <h1>Ingrid &mdash; <span>SF6 Move Gallery</span></h1>
+  <h1>sf6<span>-moves</span> &mdash; Ingrid</h1>
   <div class="sub">59 moves &middot; tap a category to load its clips
-    &middot; generated May 31, 2026 10:32 PM PT</div>
+    &middot; generated May 31, 2026 10:40 PM PT</div>
 </header>
 <main>
   <details>
@@ -175,6 +175,17 @@
   }
   ch.onmessage = function (e) { if (e.data === 'claim') yieldTab(); };
   ch.postMessage('claim');          // announce: I am now the active tab
+})();
+// Single-open accordion: opening one category collapses the others, so only
+// one section's clips are ever expanded at a time.
+(function () {
+  var all = document.querySelectorAll('details');
+  all.forEach(function (d) {
+    d.addEventListener('toggle', function () {
+      if (!d.open) return;
+      all.forEach(function (o) { if (o !== d) o.open = false; });
+    });
+  });
 })();
 </script>
 </body></html>
