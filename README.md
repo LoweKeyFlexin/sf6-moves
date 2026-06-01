@@ -4,7 +4,7 @@ Frame-accurate animated galleries of Street Fighter 6 movesets, captured in
 Training mode with the REFramework hitbox overlay (green hurtboxes, pink
 throw/active boxes).
 
-**[▶ View the galleries](https://YOUR-USERNAME.github.io/sf6-moves/)**
+**[▶ View the galleries](https://lowekeyflexin.github.io/sf6-moves/)**
 *(once GitHub Pages is enabled — see below)*
 
 ## Structure
@@ -61,4 +61,4 @@ python z_source/scripts/sf6_coach/build_static_gallery.py
 2. Repo → **Settings → Pages** → Source `Deploy from a branch`, branch `main`,
    folder `/ (root)`.
 3. ~1 min later the picker is live at
-   `https://YOUR-USERNAME.github.io/sf6-moves/`.
+   `https://lowekeyflexin.github.io/sf6-moves/`.

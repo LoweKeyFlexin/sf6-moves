@@ -1,3 +1,3 @@
-# Commit gifs as normal binary blobs. Do NOT use Git LFS: GitHub Pages serves
-# LFS objects as pointer text, breaking the clips.
+# Commit gifs as normal binary blobs. Do NOT use Git LFS: GitHub
+# Pages serves LFS objects as pointer text, breaking the clips.
 *.gif binary
