@@ -1,0 +1,18 @@
+NOTICE — game assets
+
+Street Fighter 6, its characters (including Ingrid), and all associated
+artwork, animations, and audio are © CAPCOM Co., Ltd. The animated clips
+(the .gif files in each character folder) are screen captures of the game
+captured in Training mode for non-commercial reference and study (frame data,
+hitbox visualization).
+
+This project is an unofficial fan resource. It is not affiliated with,
+endorsed by, or sponsored by CAPCOM. No ownership of the game or its assets is
+claimed, and no copyright over the captured footage is asserted.
+
+The original gallery code (HTML, CSS, JavaScript, and the generator script) is
+released into the public domain — see LICENSE (The Unlicense). That dedication
+does NOT extend to the captured game footage, which remains CAPCOM's.
+
+If you are a CAPCOM rights holder and want material removed, open an issue on
+the repository.
