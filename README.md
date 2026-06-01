@@ -51,8 +51,9 @@ python z_source/scripts/sf6_coach/build_static_gallery.py
   reference material (frame/hitbox study). No copyright over the footage is
   claimed — see NOTICE. The gallery code is public domain (The Unlicense) —
   see LICENSE.
-- Gifs are tracked with **Git LFS** (`.gitattributes`). `.nojekyll` keeps
-  GitHub Pages from altering the folder layout.
+- Gifs are committed as normal binary blobs (not Git LFS — GitHub Pages serves
+  LFS files as pointer text, which breaks them). `.nojekyll` keeps GitHub Pages
+  from altering the folder layout.
 
 ## GitHub Pages setup
 

@@ -1,3 +1,3 @@
-# Gifs are large - track with Git LFS.
-*.gif filter=lfs diff=lfs merge=lfs -text
-*.gif !text !filter !merge !diff
+# Commit gifs as normal binary blobs. Do NOT use Git LFS: GitHub Pages serves
+# LFS objects as pointer text, breaking the clips.
+*.gif binary
